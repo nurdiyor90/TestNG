@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="username" value="user@3867" />
+	<parameter name="password" value="nnlfwkk@$#jjss" />
+	<parameter name="accountNum" value="9696986932" />
+	<parameter name="address" value="1623 Coney Island" />
+	<parameter name="phoneNum" value="7869426138" />
+	<parameter name="age" value="30" />
+
+	<test name="Test1">
+
+		<classes>
+			<class name="lesson18.ParametersClass" />
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
